@@ -1,0 +1,30 @@
+.find__icons {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.find__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.find__icon span {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.find__recommendedFriends {
+  padding-top: 20px;
+}
+
+.recommendedFriends__title {
+  font-size: 14px;
+  opacity: 0.6;
+  font-weight: 600;
+  margin-bottom: 15px;
+}

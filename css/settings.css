@@ -1,0 +1,23 @@
+.basicSettings__setting,
+.personalSettings__setting,
+.support__setting {
+  display: flex;
+  cursor: pointer;
+}
+
+.settings__basicSettings,
+.settings__personalSettings {
+  border-bottom: 1px solid #f7f7f7;
+  margin-bottom: 20px;
+}
+
+.setting__icon {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.setting__icon i {
+  font-weight: 600;
+  margin-right: 15px;
+  width: 25px;
+}

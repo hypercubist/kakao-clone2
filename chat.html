@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/9e6f42b446.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chat | Kakao Clone</title>
+  </head>
+  <body>
+    <main class="chat">
+      <div class="chat__statusBar statusBar">
+        <div class="statusBar-left">
+          <span class="statusBar__clock">03:02</span>
+        </div>
+        <div class="statusBar-right">
+          <div class="statusBar__icons">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-signal"></i>
+            <span class="statusBar__batteryLevel">98%</span>
+            <i class="fas fa-battery-full"></i>
+          </div>
+        </div>
+      </div>
+      <header class="chat__header">
+        <div class="header-left">
+          <div class="header__backBtn">
+            <a href="index.html">
+              <i class="fas fa-arrow-left"></i>
+            </a>
+          </div>
+          <h1 class="header__title">Chat</h1>
+        </div>
+        <div class="header-right">
+          <div class="header__icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </header>
+      <section class="chat__section">
+        <div class="chat__date">
+          Wednesday, January 22, 2020
+        </div>
+        <div class="chat__receiving">
+          <div class="receiving-left">
+            <div class="user__img">
+              <img src="src/user2.jpg" />
+            </div>
+            <div class="user__information">
+              <div class="user__name">KimKyuA</div>
+              <div class="user__message">uhh.. I overslept!</div>
+            </div>
+          </div>
+          <div class="receiving-right">
+            <span class="user__timestamp">09:40</span>
+          </div>
+        </div>
+        <div class="chat__sending">
+          <div class="sending-left">
+            <span class="user__timestamp">09:41</span>
+          </div>
+          <div class="sending-right">
+            <div class="user__message">hurry up! lol</div>
+          </div>
+        </div>
+        <div class="chat__write">
+          <div class="write-left">
+            <i class="far fa-plus-square"></i>
+          </div>
+          <div class="write-center">
+            <input
+              type="text"
+              placeholder="Send message"
+              class="write__input"
+            />
+          </div>
+          <div class="write-right">
+            <i class="far fa-smile-wink"></i>
+            <i class="fas fa-microphone"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small :)</span>
+    </div>
+  </body>
+</html>
